@@ -2,13 +2,13 @@
 
 namespace TobyMaxham\ZhylonOauth\Tests;
 
-use stdClass;
-use Mockery as m;
-use Illuminate\Http\Request;
-use Laravel\Socialite\Two\User;
-use Orchestra\Testbench\TestCase;
 use Illuminate\Contracts\Session\Session;
+use Illuminate\Http\Request;
 use Laravel\Socialite\Two\InvalidStateException;
+use Laravel\Socialite\Two\User;
+use Mockery as m;
+use Orchestra\Testbench\TestCase;
+use stdClass;
 use TobyMaxham\ZhylonOauth\Tests\Fixtures\ZhylonOAuthTestProviderStub;
 
 class ZhylonOAuthClientTest extends TestCase
@@ -42,7 +42,6 @@ class ZhylonOAuthClientTest extends TestCase
         $this->assertSame($user->id, $provider->user()->id);
     }
 
-
     /** @test */
     public function it_can_change_the_zhylon_instance()
     {
@@ -69,7 +68,6 @@ class ZhylonOAuthClientTest extends TestCase
 
         ZhylonOAuthTestProviderStub::$ZHYLON_INSTANCE = $before;
     }
-
 
     /** @test */
     public function it_throws_an_invalid_state_exception()

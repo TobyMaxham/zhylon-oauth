@@ -2,9 +2,9 @@
 
 namespace TobyMaxham\ZhylonOauth;
 
-use Laravel\Socialite\Two\User;
 use Laravel\Socialite\Two\AbstractProvider;
 use Laravel\Socialite\Two\ProviderInterface;
+use Laravel\Socialite\Two\User;
 
 class ZhylonProvider extends AbstractProvider implements ProviderInterface
 {

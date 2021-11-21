@@ -2,11 +2,11 @@
 
 namespace TobyMaxham\ZhylonOauth\Tests;
 
-use Orchestra\Testbench\TestCase;
 use Laravel\Socialite\Contracts\Factory;
-use TobyMaxham\ZhylonOauth\ZhylonProvider;
 use Laravel\Socialite\SocialiteServiceProvider;
+use Orchestra\Testbench\TestCase;
 use TobyMaxham\ZhylonOauth\ZhylonOauthServiceProvider;
+use TobyMaxham\ZhylonOauth\ZhylonProvider;
 
 class ServiceProviderTest extends TestCase
 {

@@ -2,8 +2,8 @@
 
 namespace TobyMaxham\ZhylonOauth\Tests\Fixtures;
 
-use stdClass;
 use Mockery as m;
+use stdClass;
 use TobyMaxham\ZhylonOauth\ZhylonProvider;
 
 class ZhylonOAuthTestProviderStub extends ZhylonProvider
